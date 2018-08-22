@@ -1,0 +1,18 @@
+body.youtube-pro div.videoAdUiTopBar, body.youtube-pro div.videoAdUiBottomBar, body.youtube-pro div.videoAdUiProgressBar, body.youtube-pro div.videoAdUiPreSkipContainer{
+    display: none!important;
+}
+body.youtube-pro div.ima-container{
+  display: none!important;
+}
+body.youtube-pro div.ytp-ce-element{
+  display: none!important;
+}
+body.youtube-pro div.ytp-chrome-top{
+  display: none!important;
+}
+body.youtube-pro div.ytp-iv-player-content, body.youtube-pro div.ytp-iv-video-content, body.youtube-pro div.annotation {
+  display: none!important;
+}
+body.youtube-pro div#player-ads{
+  display: none!important;
+}

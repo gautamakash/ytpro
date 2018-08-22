@@ -1,0 +1,37 @@
+{
+  "name": "youtube-pro",
+  "version": "1.0",
+  "description": "Youtube modification for pro version",
+  "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage",
+        "https://www.youtube.com/*/"
+      ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+        "matches": ["https://www.youtube.com/*"],
+        "css": ["youtube.css"]
+    }
+  ],
+  "page_action": {
+    "default_popup": "popup.html",
+      "default_icon": {
+        "16": "media.png",
+        "32": "media.png",
+        "48": "media.png",
+        "128": "media.png"
+      }
+  },
+  "icons": {
+    "16": "media.png",
+    "32": "media.png",
+    "48": "media.png",
+    "128": "media.png"
+  },
+  "manifest_version": 2
+}
